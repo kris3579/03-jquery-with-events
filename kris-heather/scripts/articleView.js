@@ -78,6 +78,11 @@ articleView.handleMainNav = function () {
   $('nav').on('click', '.tab', function (e) {
     e.preventDefault();
     $('.tab-content').hide();
+    $('#author-filter').val('');
+    $('#category-filter').val('');
+    $('article').hide();
+    $('article').show();
+    $('.template').hide();
     $('#' + $(this).data('content')).fadeIn();
   });
 
