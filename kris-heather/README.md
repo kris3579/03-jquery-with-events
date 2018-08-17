@@ -1,7 +1,7 @@
 # jQuery Events
 
 **Author**: Kris Esvelt and Heather Palmer
-**Version**: 1.0.7
+**Version**: 1.0.8
 
 ## Overview
 This is a blog app that allows the user to filter the blogs by author or category. The blog also shows previews of each post and the user can read more or less by clicking the provided option.
@@ -22,6 +22,8 @@ This is a blog app that allows the user to filter the blogs by author or categor
 We used HTML, CSS, JavaScript, and jQuery
 
 ## Change Log
+1.0.8 2018-08-17
+Kris Esvelt: fixed handleMainNav
 
 1.0.7	2018-08-16
 Heather Palmer: Fix typo in HTML and add change log to readme
